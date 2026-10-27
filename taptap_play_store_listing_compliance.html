@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TapTap - App Information, Policies & Compliance</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+            display: ['Space Grotesk', 'sans-serif']
+          },
+          colors: {
+            obsidian: '#080A0F',
+            'obsidian-surface': '#0F131D',
+            'obsidian-card': '#141A27',
+            'obsidian-muted': '#1A2234',
+            gold: {
+              100: '#FDF8E2',
+              200: '#F9F0C5',
+              300: '#F3E5AB',
+              400: '#E5C76B',
+              500: '#D4AF37',
+              600: '#B59025',
+              700: '#8C6F16',
+            }
+          },
+          backgroundImage: {
+            'subtle-radial': 'radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.12) 0%, rgba(8, 10, 15, 0) 65%)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .text-gold-shine {
+      background: linear-gradient(135deg, #FFFFFF 0%, #F3E5AB 35%, #D4AF37 70%, #FFE285 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .circuit-bg {
+      background-image: radial-gradient(rgba(212, 175, 55, 0.07) 1px, transparent 1px),
+                        radial-gradient(rgba(255, 255, 255, 0.02) 1px, #080A0F 1px);
+      background-size: 28px 28px;
+      background-position: 0 0, 14px 14px;
+    }
+    .glass-gold {
+      background: rgba(15, 19, 29, 0.85);
+      backdrop-filter: blur(14px);
+      border: 1px solid rgba(212, 175, 55, 0.22);
+    }
+  </style>
+</head>
+<body class="bg-obsidian text-slate-300 font-sans antialiased selection:bg-gold-500/25 selection:text-gold-200 circuit-bg min-h-screen py-10 px-4 sm:px-6 lg:px-8">
+
+  <!-- Ambient Luxury Glow -->
+  <div class="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-5xl h-80 bg-subtle-radial pointer-events-none z-0"></div>
+
+  <!-- MAIN WRAPPER (Single Centered Column, No Sidebars) -->
+  <main class="relative z-10 max-w-4xl mx-auto space-y-8">
+
+    <!-- Document Header / App Title -->
+    <header class="text-center space-y-3 pb-6 border-b border-gold-500/20">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono bg-gold-500/10 text-gold-300 border border-gold-500/30">
+        <i data-lucide="shield-check" class="w-3.5 h-3.5"></i> Google Play Store Console Documentation
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-bold text-white font-display tracking-tight">
+        TapTap: <span class="text-gold-shine">App Listing &amp; Compliance Details</span>
+      </h1>
+      <p class="text-xs sm:text-sm text-slate-400 font-mono">Developer: Firefly Labz &bull; fireflylabz@gmail.com</p>
+    </header>
+
+    <!-- 1. APP CATEGORY -->
+    <section class="glass-gold rounded-2xl p-6 sm:p-8 space-y-4">
+      <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
+        <i data-lucide="layout-grid" class="w-4 h-4"></i>
+        <span>Section 01</span>
+      </div>
+      <h2 class="text-xl sm:text-2xl font-bold text-white font-display">1. App Category</h2>
+      <div class="space-y-2 text-sm text-slate-300">
+        <div class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-center justify-between">
+          <span class="text-slate-400">Primary Category:</span>
+          <span class="font-semibold text-white">News &amp; Magazines</span>
+        </div>
+        <div class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-center justify-between">
+          <span class="text-slate-400">Secondary / Alternative Category:</span>
+          <span class="font-semibold text-gold-300">Finance <span class="text-xs text-slate-400 font-normal">(BusinessHub live market &amp; indices tracker)</span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SHORT DESCRIPTION -->
+    <section class="glass-gold rounded-2xl p-6 sm:p-8 space-y-4">
+      <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
+        <i data-lucide="type" class="w-4 h-4"></i>
+        <span>Section 02</span>
+      </div>
+      <div class="flex items-center justify-between">
+        <h2 class="text-xl sm:text-2xl font-bold text-white font-display">2. Short Description</h2>
+        <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400 border border-slate-700">Max 80 chars</span>
+      </div>
+      <div class="p-4 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-sm sm:text-base leading-relaxed">
+        AI-powered news aggregator &amp; live financial hub for Sensex, Nifty &amp; global markets.
+      </div>
+    </section>
+
+    <!-- 3. LONG DESCRIPTION -->
+    <section class="glass-gold rounded-2xl p-6 sm:p-8 space-y-5">
+      <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
+        <i data-lucide="align-left" class="w-4 h-4"></i>
+        <span>Section 03</span>
+      </div>
+      <div class="flex items-center justify-between">
+        <h2 class="text-xl sm:text-2xl font-bold text-white font-display">3. Long Description</h2>
+        <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400 border border-slate-700">Max 4000 chars</span>
+      </div>
+
+      <div class="text-sm leading-relaxed space-y-4 text-slate-300">
+        <p class="text-base text-white font-medium">
+          Experience the future of news consumption and financial intelligence with <strong>TapTap</strong>, an AI-native news aggregator designed to eliminate information overload and news bias.
+        </p>
+
+        <div class="pt-2">
+          <h3 class="text-xs uppercase tracking-wider font-mono text-gold-300 font-bold mb-3 flex items-center gap-1.5">
+            <i data-lucide="sparkles" class="w-4 h-4 text-gold-400"></i> Key Features
+          </h3>
+          <ul class="space-y-3 text-xs sm:text-sm">
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">AI-Native Summarization:</strong> Get straight to the point with concise, AI-synthesized 4-bullet point summaries for every top story across 12 major categories (Politics, Crime, Business, Entertainment, Sports, Health, Science &amp; Tech, Weather, Lifestyle, Cricket, Enterprise AI, and India).
+              </div>
+            </li>
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">BusinessHub &amp; Live Market Tracker:</strong> Stay ahead of the markets with real-time live tickers for Sensex (^BSESN), Nifty 50 (^NSEI), S&amp;P 500 (^GSPC), Nasdaq, FTSE 100, and Nikkei 225.
+              </div>
+            </li>
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">Top Stock Gainers &amp; Losers:</strong> Track real-time top performing and lagging stocks across Day (1D) and Week (1W) timeframes.
+              </div>
+            </li>
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">Commodities &amp; Macro Indicators:</strong> Monitor live pricing for Brent Crude Oil, Gold, Silver, and Copper alongside key macroeconomic indicators like Repo Rates and CPI inflation.
+              </div>
+            </li>
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">Sector Insights &amp; Correlations:</strong> Understand how macroeconomic events impact specific sectors (Banking, IT, Auto, FMCG, Real Estate).
+              </div>
+            </li>
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">Interactive Story Flashcards:</strong> Swipe through immersive flashcard digests designed for quick morning briefings.
+              </div>
+            </li>
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">Audio Briefings:</strong> Listen to daily AI news briefings on the go with built-in Text-to-Speech support.
+              </div>
+            </li>
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">Bookmarks &amp; Built-in Web Reader:</strong> Save stories for later and read full original reporting directly inside the app.
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <p class="pt-3 text-gold-300 font-medium text-center">
+          Download TapTap today and master your daily news and market intelligence in minutes!
+        </p>
+      </div>
+    </section>
+
+    <!-- 4. PRIVACY POLICY TEMPLATE -->
+    <section class="glass-gold rounded-2xl p-6 sm:p-8 space-y-5">
+      <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
+        <i data-lucide="file-text" class="w-4 h-4"></i>
+        <span>Section 04</span>
+      </div>
+      <h2 class="text-xl sm:text-2xl font-bold text-white font-display">4. Privacy Policy Template</h2>
+
+      <div class="flex flex-wrap gap-4 text-xs font-mono border-b border-slate-800 pb-3 text-slate-400">
+        <div><strong class="text-slate-300">Effective Date:</strong> October 27, 2026</div>
+        <div><strong class="text-slate-300">Developer:</strong> Firefly Labz (<a href="mailto:fireflylabz@gmail.com" class="text-gold-400 hover:underline">fireflylabz@gmail.com</a>)</div>
+      </div>
+
+      <div class="space-y-4 text-xs sm:text-sm text-slate-300">
+        <div>
+          <h3 class="font-bold text-white mb-1">Overview</h3>
+          <p class="leading-relaxed text-slate-400">
+            TapTap (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;app&rdquo;) respects your privacy. This Privacy Policy explains how information is handled when you use our mobile application.
+          </p>
+        </div>
+
+        <div class="space-y-2.5">
+          <h3 class="font-bold text-white">Information Collection &amp; Usage</h3>
+          <ul class="space-y-2">
+            <li class="p-3 rounded-xl bg-obsidian-card border border-slate-800">
+              <strong class="text-gold-300">Local Preferences:</strong> TapTap stores your bookmarked stories and UI preferences locally on your device using encrypted/local SharedPreferences.
+            </li>
+            <li class="p-3 rounded-xl bg-obsidian-card border border-slate-800">
+              <strong class="text-gold-300">Authentication &amp; Supabase:</strong> If you sign in or sync data, we utilize Supabase for secure cloud storage of user bookmarks and synchronized news clusters.
+            </li>
+            <li class="p-3 rounded-xl bg-obsidian-card border border-slate-800">
+              <strong class="text-gold-300">Live Financial API:</strong> TapTap fetches public financial market data and stock indices via standard REST APIs (such as Yahoo Finance). No personal financial data is collected or transmitted.
+            </li>
+            <li class="p-3 rounded-xl bg-obsidian-card border border-slate-800">
+              <strong class="text-gold-300">AI Processing:</strong> News articles are synthesized using automated AI workflows. We do not collect or store personal user prompts or identities.
+            </li>
+          </ul>
+        </div>
+
+        <div class="pt-2">
+          <h3 class="font-bold text-white mb-1">Contact Us</h3>
+          <p class="text-slate-400">
+            For any privacy-related questions or requests, contact us at: 
+            <a href="mailto:fireflylabz@gmail.com" class="text-gold-400 hover:underline font-mono">fireflylabz@gmail.com</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. TARGET AUDIENCE & CONTENT RATING -->
+    <section class="glass-gold rounded-2xl p-6 sm:p-8 space-y-4">
+      <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
+        <i data-lucide="users" class="w-4 h-4"></i>
+        <span>Section 05</span>
+      </div>
+      <h2 class="text-xl sm:text-2xl font-bold text-white font-display">5. Target Audience &amp; Content Rating</h2>
+
+      <div class="space-y-3 text-xs sm:text-sm">
+        <div class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-center justify-between">
+          <span class="text-slate-400">Target Age Group:</span>
+          <span class="font-semibold text-white">13+ (Teens and Adults)</span>
+        </div>
+
+        <div class="space-y-2 pt-2">
+          <h3 class="text-xs uppercase font-mono tracking-wider text-gold-300 font-bold">Content Rating Questionnaire</h3>
+          
+          <div class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 space-y-1">
+            <p class="text-slate-300 font-medium">Does the app contain violence, sexual content, or hate speech?</p>
+            <p class="text-slate-400 text-xs"><strong>No</strong> (Strict automated safety guardrails filter out NSFW/CSAM/harmful content).</p>
+          </div>
+
+          <div class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 space-y-1">
+            <p class="text-slate-300 font-medium">Does it feature financial trading or financial information?</p>
+            <p class="text-slate-400 text-xs"><strong>Yes</strong> (Provides informational financial market indices and stock movers; no direct financial transactions or brokerage services are performed).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. STORE TAGS -->
+    <section class="glass-gold rounded-2xl p-6 sm:p-8 space-y-4">
+      <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
+        <i data-lucide="tag" class="w-4 h-4"></i>
+        <span>Section 06</span>
+      </div>
+      <h2 class="text-xl sm:text-2xl font-bold text-white font-display">6. Store Tags</h2>
+
+      <div class="flex flex-wrap gap-2.5">
+        <span class="px-3.5 py-1.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-xs sm:text-sm">News</span>
+        <span class="px-3.5 py-1.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-xs sm:text-sm">Finance</span>
+        <span class="px-3.5 py-1.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-xs sm:text-sm">Stock Market</span>
+        <span class="px-3.5 py-1.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-xs sm:text-sm">AI Summarizer</span>
+        <span class="px-3.5 py-1.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-xs sm:text-sm">Business</span>
+        <span class="px-3.5 py-1.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-xs sm:text-sm">Live Indices</span>
+        <span class="px-3.5 py-1.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-xs sm:text-sm">Daily Briefing</span>
+      </div>
+    </section>
+
+    <!-- 7. DATA SAFETY SECTION DISCLOSURES -->
+    <section class="glass-gold rounded-2xl p-6 sm:p-8 space-y-5">
+      <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
+        <i data-lucide="shield-alert" class="w-4 h-4"></i>
+        <span>Section 07</span>
+      </div>
+      <h2 class="text-xl sm:text-2xl font-bold text-white font-display">7. Data Safety Section Disclosures (Google Play Console)</h2>
+
+      <div class="space-y-3 text-xs sm:text-sm">
+        <div class="p-4 rounded-xl bg-obsidian-card border border-slate-800 space-y-2">
+          <h3 class="font-bold text-white">Does your app collect or share any required user data types?</h3>
+          <ul class="space-y-1.5 pl-4 list-disc text-slate-400">
+            <li><strong class="text-slate-300">App info and performance / Diagnostics:</strong> No.</li>
+            <li><strong class="text-slate-300">Personal Info (e.g., Name, Email):</strong> Only if user explicitly authenticates via Supabase Auth (Email optional).</li>
+            <li><strong class="text-slate-300">Financial Info:</strong> No (App displays public market indices and stock movers via REST APIs; does not handle banking or financial transactions).</li>
+          </ul>
+        </div>
+
+        <div class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+          <span class="text-slate-400 font-medium">Is data encrypted in transit?</span>
+          <span class="text-emerald-400 font-semibold flex items-center gap-1.5">
+            <i data-lucide="lock" class="w-3.5 h-3.5"></i> Yes (HTTPS/TLS for all Supabase and REST API calls)
+          </span>
+        </div>
+
+        <div class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+          <span class="text-slate-400 font-medium">Can users request data deletion?</span>
+          <span class="text-gold-300 font-semibold">Yes, by clearing app data or contacting fireflylabz@gmail.com</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Simple Footer -->
+    <footer class="pt-6 text-center text-xs text-slate-500 font-mono">
+      &copy; 2026 Firefly Labz &bull; TapTap AI News &amp; Finance Hub
+    </footer>
+
+  </main>
+
+  <!-- Lucide Icon Initialization -->
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
