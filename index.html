@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Privacy Policy | TapTap - AI News & Insights</title>
+  <title>TapTap - App Information, Policies & Compliance</title>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
 
@@ -19,8 +19,7 @@
         extend: {
           fontFamily: {
             sans: ['Inter', 'sans-serif'],
-            display: ['Space Grotesk', 'sans-serif'],
-            luxury: ['Cinzel', 'serif']
+            display: ['Space Grotesk', 'sans-serif']
           },
           colors: {
             obsidian: '#080A0F',
@@ -38,7 +37,6 @@
             }
           },
           backgroundImage: {
-            'gold-gradient': 'linear-gradient(135deg, #FFFFFF 0%, #F3E5AB 40%, #D4AF37 75%, #A88420 100%)',
             'subtle-radial': 'radial-gradient(circle at 50% 0%, rgba(212, 175, 55, 0.12) 0%, rgba(8, 10, 15, 0) 65%)'
           }
         }
@@ -59,326 +57,283 @@
       background-position: 0 0, 14px 14px;
     }
     .glass-gold {
-      background: rgba(15, 19, 29, 0.82);
+      background: rgba(15, 19, 29, 0.85);
       backdrop-filter: blur(14px);
       border: 1px solid rgba(212, 175, 55, 0.22);
     }
-    .glass-gold:hover {
-      border-color: rgba(243, 229, 171, 0.42);
-    }
-    .gold-glow-sm {
-      box-shadow: 0 0 20px -3px rgba(212, 175, 55, 0.22);
-    }
-    /* Legal Section Highlights */
-    .policy-section {
-      scroll-margin-top: 110px;
-    }
-    @media print {
-      body {
-        background: #ffffff !important;
-        color: #000000 !important;
-      }
-      .no-print {
-        display: none !important;
-      }
-      .print-plain {
-        border: none !important;
-        background: transparent !important;
-        box-shadow: none !important;
-        color: #000000 !important;
-      }
-      a {
-        color: #000000 !important;
-        text-decoration: underline !important;
-      }
-    }
   </style>
 </head>
-<body class="bg-obsidian text-slate-300 font-sans antialiased selection:bg-gold-500/25 selection:text-gold-200 circuit-bg min-h-screen flex flex-col">
+<body class="bg-obsidian text-slate-300 font-sans antialiased selection:bg-gold-500/25 selection:text-gold-200 circuit-bg min-h-screen py-10 px-4 sm:px-6 lg:px-8">
 
   <!-- Ambient Luxury Glow -->
-  <div class="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-80 bg-subtle-radial pointer-events-none z-0 no-print"></div>
+  <div class="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-5xl h-80 bg-subtle-radial pointer-events-none z-0"></div>
 
-  <!-- STICKY TOP BRAND & COMPLIANCE HEADER -->
-  <header class="sticky top-0 z-40 backdrop-blur-md bg-obsidian/90 border-b border-gold-500/20 no-print">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
-      
-      <!-- Brand & Title -->
-      <a href="#" class="flex items-center gap-3.5 group shrink-0">
-        <div class="relative w-11 h-11 rounded-xl p-0.5 bg-gradient-to-tr from-gold-600 via-gold-400 to-white/90 shadow-md group-hover:scale-105 transition-transform duration-300">
-          <img src="TT App Icon.png" alt="TapTap App Icon" class="w-full h-full object-cover rounded-[10px]" onerror="this.src='https://placehold.co/128x128/141A27/D4AF37?text=TT'">
+  <!-- MAIN WRAPPER (Single Centered Column, No Sidebars) -->
+  <main class="relative z-10 max-w-4xl mx-auto space-y-8">
+
+    <!-- Document Header / App Title -->
+    <header class="text-center space-y-3 pb-6 border-b border-gold-500/20">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-mono bg-gold-500/10 text-gold-300 border border-gold-500/30">
+        <i data-lucide="shield-check" class="w-3.5 h-3.5"></i> Google Play Store Console Documentation
+      </div>
+      <h1 class="text-3xl sm:text-4xl font-bold text-white font-display tracking-tight">
+        TapTap: <span class="text-gold-shine">App Listing &amp; Compliance Details</span>
+      </h1>
+      <p class="text-xs sm:text-sm text-slate-400 font-mono">Developer: Firefly Labz &bull; fireflylabz@gmail.com</p>
+    </header>
+
+    <!-- 1. APP CATEGORY -->
+    <section class="glass-gold rounded-2xl p-6 sm:p-8 space-y-4">
+      <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
+        <i data-lucide="layout-grid" class="w-4 h-4"></i>
+        <span>Section 01</span>
+      </div>
+      <h2 class="text-xl sm:text-2xl font-bold text-white font-display">1. App Category</h2>
+      <div class="space-y-2 text-sm text-slate-300">
+        <div class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-center justify-between">
+          <span class="text-slate-400">Primary Category:</span>
+          <span class="font-semibold text-white">News &amp; Magazines</span>
         </div>
-        <div class="flex flex-col">
-          <div class="flex items-center gap-2">
-            <span class="text-xl sm:text-2xl font-bold font-display tracking-tight text-white group-hover:text-gold-300 transition-colors">TapTap</span>
-            <span class="hidden sm:inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded-full font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/30">
-              <i data-lucide="shield-check" class="w-3 h-3 text-emerald-400"></i> Google Play Compliant
-            </span>
-          </div>
-          <span class="text-[11px] text-slate-400 font-mono tracking-wide">AI News &amp; Insights &bull; Legal Privacy Center</span>
+        <div class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-center justify-between">
+          <span class="text-slate-400">Secondary / Alternative Category:</span>
+          <span class="font-semibold text-gold-300">Finance <span class="text-xs text-slate-400 font-normal">(BusinessHub live market &amp; indices tracker)</span></span>
         </div>
-      </a>
+      </div>
+    </section>
 
-      <!-- Quick Action Controls -->
-      <div class="flex items-center gap-2.5">
-        <button onclick="window.print()" class="hidden md:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold rounded-lg text-slate-300 bg-obsidian-surface border border-slate-700/80 hover:text-white hover:border-gold-500/40 transition-all" title="Print or save as PDF">
-          <i data-lucide="printer" class="w-3.5 h-3.5 text-gold-400"></i> Print / PDF
-        </button>
+    <!-- 2. SHORT DESCRIPTION -->
+    <section class="glass-gold rounded-2xl p-6 sm:p-8 space-y-4">
+      <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
+        <i data-lucide="type" class="w-4 h-4"></i>
+        <span>Section 02</span>
+      </div>
+      <div class="flex items-center justify-between">
+        <h2 class="text-xl sm:text-2xl font-bold text-white font-display">2. Short Description</h2>
+        <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400 border border-slate-700">Max 80 chars</span>
+      </div>
+      <div class="p-4 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-sm sm:text-base leading-relaxed">
+        AI-powered news aggregator &amp; live financial hub for Sensex, Nifty &amp; global markets.
+      </div>
+    </section>
 
-        <button onclick="openDeletionModal()" class="inline-flex items-center gap-1.5 px-3.5 py-1.5 text-xs font-semibold rounded-lg text-gold-300 bg-gold-950/40 border border-gold-500/40 hover:bg-gold-900/40 hover:border-gold-300 transition-all shadow-sm">
-          <i data-lucide="trash-2" class="w-3.5 h-3.5 text-gold-400"></i>
-          <span class="hidden xs:inline">Data &amp; Support Purge</span>
-          <span class="xs:hidden">Clear Data</span>
-        </button>
+    <!-- 3. LONG DESCRIPTION -->
+    <section class="glass-gold rounded-2xl p-6 sm:p-8 space-y-5">
+      <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
+        <i data-lucide="align-left" class="w-4 h-4"></i>
+        <span>Section 03</span>
+      </div>
+      <div class="flex items-center justify-between">
+        <h2 class="text-xl sm:text-2xl font-bold text-white font-display">3. Long Description</h2>
+        <span class="text-xs font-mono px-2 py-0.5 rounded bg-slate-800 text-slate-400 border border-slate-700">Max 4000 chars</span>
       </div>
 
-    </div>
-  </header>
+      <div class="text-sm leading-relaxed space-y-4 text-slate-300">
+        <p class="text-base text-white font-medium">
+          Experience the future of news consumption and financial intelligence with <strong>TapTap</strong>, an AI-native news aggregator designed to eliminate information overload and news bias.
+        </p>
 
-  <!-- BANNER SUB-HEADER / COMPLIANCE METADATA -->
-  <section class="border-b border-gold-500/15 bg-obsidian-surface/60 py-6 no-print">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div class="pt-2">
+          <h3 class="text-xs uppercase tracking-wider font-mono text-gold-300 font-bold mb-3 flex items-center gap-1.5">
+            <i data-lucide="sparkles" class="w-4 h-4 text-gold-400"></i> Key Features
+          </h3>
+          <ul class="space-y-3 text-xs sm:text-sm">
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">AI-Native Summarization:</strong> Get straight to the point with concise, AI-synthesized 4-bullet point summaries for every top story across 12 major categories (Politics, Crime, Business, Entertainment, Sports, Health, Science &amp; Tech, Weather, Lifestyle, Cricket, Enterprise AI, and India).
+              </div>
+            </li>
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">BusinessHub &amp; Live Market Tracker:</strong> Stay ahead of the markets with real-time live tickers for Sensex (^BSESN), Nifty 50 (^NSEI), S&amp;P 500 (^GSPC), Nasdaq, FTSE 100, and Nikkei 225.
+              </div>
+            </li>
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">Top Stock Gainers &amp; Losers:</strong> Track real-time top performing and lagging stocks across Day (1D) and Week (1W) timeframes.
+              </div>
+            </li>
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">Commodities &amp; Macro Indicators:</strong> Monitor live pricing for Brent Crude Oil, Gold, Silver, and Copper alongside key macroeconomic indicators like Repo Rates and CPI inflation.
+              </div>
+            </li>
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">Sector Insights &amp; Correlations:</strong> Understand how macroeconomic events impact specific sectors (Banking, IT, Auto, FMCG, Real Estate).
+              </div>
+            </li>
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">Interactive Story Flashcards:</strong> Swipe through immersive flashcard digests designed for quick morning briefings.
+              </div>
+            </li>
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">Audio Briefings:</strong> Listen to daily AI news briefings on the go with built-in Text-to-Speech support.
+              </div>
+            </li>
+            <li class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-start gap-3">
+              <span class="w-2 h-2 rounded-full bg-gold-400 mt-2 shrink-0"></span>
+              <div>
+                <strong class="text-white">Bookmarks &amp; Built-in Web Reader:</strong> Save stories for later and read full original reporting directly inside the app.
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <p class="pt-3 text-gold-300 font-medium text-center">
+          Download TapTap today and master your daily news and market intelligence in minutes!
+        </p>
+      </div>
+    </section>
+
+    <!-- 4. PRIVACY POLICY TEMPLATE -->
+    <section class="glass-gold rounded-2xl p-6 sm:p-8 space-y-5">
+      <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
+        <i data-lucide="file-text" class="w-4 h-4"></i>
+        <span>Section 04</span>
+      </div>
+      <h2 class="text-xl sm:text-2xl font-bold text-white font-display">4. Privacy Policy Template</h2>
+
+      <div class="flex flex-wrap gap-4 text-xs font-mono border-b border-slate-800 pb-3 text-slate-400">
+        <div><strong class="text-slate-300">Effective Date:</strong> October 27, 2026</div>
+        <div><strong class="text-slate-300">Developer:</strong> Firefly Labz (<a href="mailto:fireflylabz@gmail.com" class="text-gold-400 hover:underline">fireflylabz@gmail.com</a>)</div>
+      </div>
+
+      <div class="space-y-4 text-xs sm:text-sm text-slate-300">
         <div>
-          <div class="flex flex-wrap items-center gap-2 mb-1.5">
-            <span class="text-[11px] font-mono px-2.5 py-0.5 rounded bg-gold-500/15 text-gold-300 border border-gold-500/30 font-medium">OFFICIAL DISCLOSURE</span>
-            <span class="text-[11px] font-mono text-slate-400">Play Console Verified Policy (v2.1)</span>
-          </div>
-          <h1 class="text-2xl sm:text-3xl font-bold text-white font-display tracking-tight">
-            Privacy Policy &amp; <span class="text-gold-shine">Data Transparency Statement</span>
-          </h1>
+          <h3 class="font-bold text-white mb-1">Overview</h3>
+          <p class="leading-relaxed text-slate-400">
+            TapTap (&ldquo;we&rdquo;, &ldquo;our&rdquo;, or &ldquo;app&rdquo;) respects your privacy. This Privacy Policy explains how information is handled when you use our mobile application.
+          </p>
         </div>
 
-        <!-- Metadata pill table -->
-        <div class="flex flex-wrap items-center gap-3 text-xs font-mono">
-          <div class="px-3 py-2 rounded-xl bg-obsidian-card border border-slate-800 flex items-center gap-2">
-            <i data-lucide="calendar" class="w-4 h-4 text-gold-400"></i>
-            <div>
-              <div class="text-[10px] text-slate-500 uppercase">Effective Date</div>
-              <div class="text-white font-medium">October 2026</div>
-            </div>
+        <div class="space-y-2.5">
+          <h3 class="font-bold text-white">Information Collection &amp; Usage</h3>
+          <ul class="space-y-2">
+            <li class="p-3 rounded-xl bg-obsidian-card border border-slate-800">
+              <strong class="text-gold-300">Local Preferences:</strong> TapTap stores your bookmarked stories and UI preferences locally on your device using encrypted/local SharedPreferences.
+            </li>
+            <li class="p-3 rounded-xl bg-obsidian-card border border-slate-800">
+              <strong class="text-gold-300">Authentication &amp; Supabase:</strong> If you sign in or sync data, we utilize Supabase for secure cloud storage of user bookmarks and synchronized news clusters.
+            </li>
+            <li class="p-3 rounded-xl bg-obsidian-card border border-slate-800">
+              <strong class="text-gold-300">Live Financial API:</strong> TapTap fetches public financial market data and stock indices via standard REST APIs (such as Yahoo Finance). No personal financial data is collected or transmitted.
+            </li>
+            <li class="p-3 rounded-xl bg-obsidian-card border border-slate-800">
+              <strong class="text-gold-300">AI Processing:</strong> News articles are synthesized using automated AI workflows. We do not collect or store personal user prompts or identities.
+            </li>
+          </ul>
+        </div>
+
+        <div class="pt-2">
+          <h3 class="font-bold text-white mb-1">Contact Us</h3>
+          <p class="text-slate-400">
+            For any privacy-related questions or requests, contact us at: 
+            <a href="mailto:fireflylabz@gmail.com" class="text-gold-400 hover:underline font-mono">fireflylabz@gmail.com</a>.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. TARGET AUDIENCE & CONTENT RATING -->
+    <section class="glass-gold rounded-2xl p-6 sm:p-8 space-y-4">
+      <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
+        <i data-lucide="users" class="w-4 h-4"></i>
+        <span>Section 05</span>
+      </div>
+      <h2 class="text-xl sm:text-2xl font-bold text-white font-display">5. Target Audience &amp; Content Rating</h2>
+
+      <div class="space-y-3 text-xs sm:text-sm">
+        <div class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex items-center justify-between">
+          <span class="text-slate-400">Target Age Group:</span>
+          <span class="font-semibold text-white">13+ (Teens and Adults)</span>
+        </div>
+
+        <div class="space-y-2 pt-2">
+          <h3 class="text-xs uppercase font-mono tracking-wider text-gold-300 font-bold">Content Rating Questionnaire</h3>
+          
+          <div class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 space-y-1">
+            <p class="text-slate-300 font-medium">Does the app contain violence, sexual content, or hate speech?</p>
+            <p class="text-slate-400 text-xs"><strong>No</strong> (Strict automated safety guardrails filter out NSFW/CSAM/harmful content).</p>
           </div>
 
-          <div class="px-3 py-2 rounded-xl bg-obsidian-card border border-slate-800 flex items-center gap-2">
-            <i data-lucide="globe" class="w-4 h-4 text-gold-400"></i>
-            <div>
-              <div class="text-[10px] text-slate-500 uppercase">Jurisdiction</div>
-              <div class="text-white font-medium">Global / GDPR &bull; CCPA</div>
-            </div>
+          <div class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 space-y-1">
+            <p class="text-slate-300 font-medium">Does it feature financial trading or financial information?</p>
+            <p class="text-slate-400 text-xs"><strong>Yes</strong> (Provides informational financial market indices and stock movers; no direct financial transactions or brokerage services are performed).</p>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Quick Search Bar inside Document -->
-      <div class="mt-6 relative max-w-xl">
-        <i data-lucide="search" class="w-4 h-4 text-gold-400 absolute left-3.5 top-1/2 -translate-y-1/2"></i>
-        <input type="text" id="policySearch" onkeyup="filterClauses()" placeholder="Search clauses (e.g., 'SDK', 'deletion', 'AI training', 'cookies', 'children')..." 
-          class="w-full pl-10 pr-4 py-2.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white placeholder-slate-500 text-xs sm:text-sm focus:outline-none focus:border-gold-400 transition-colors">
+    <!-- 6. STORE TAGS -->
+    <section class="glass-gold rounded-2xl p-6 sm:p-8 space-y-4">
+      <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
+        <i data-lucide="tag" class="w-4 h-4"></i>
+        <span>Section 06</span>
       </div>
-    </div>
-  </section>
+      <h2 class="text-xl sm:text-2xl font-bold text-white font-display">6. Store Tags</h2>
 
-  <!-- MAIN BODY LAYOUT (STICKY SIDEBAR TOC + CONTENT) -->
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 flex-1 w-full">
-    <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+      <div class="flex flex-wrap gap-2.5">
+        <span class="px-3.5 py-1.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-xs sm:text-sm">News</span>
+        <span class="px-3.5 py-1.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-xs sm:text-sm">Finance</span>
+        <span class="px-3.5 py-1.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-xs sm:text-sm">Stock Market</span>
+        <span class="px-3.5 py-1.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-xs sm:text-sm">AI Summarizer</span>
+        <span class="px-3.5 py-1.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-xs sm:text-sm">Business</span>
+        <span class="px-3.5 py-1.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-xs sm:text-sm">Live Indices</span>
+        <span class="px-3.5 py-1.5 rounded-xl bg-obsidian-card border border-gold-500/30 text-white font-medium text-xs sm:text-sm">Daily Briefing</span>
+      </div>
+    </section>
 
-      <!-- STICKY SIDEBAR TABLE OF CONTENTS (Desktop) -->
-      <aside class="hidden lg:block lg:col-span-4 sticky top-28 glass-gold rounded-2xl p-5 no-print">
-        <div class="flex items-center gap-2 pb-3 mb-3 border-b border-gold-500/20 text-xs font-bold uppercase tracking-wider text-gold-300 font-mono">
-          <i data-lucide="list-tree" class="w-4 h-4 text-gold-400"></i>
-          <span>Document Navigation</span>
-        </div>
-        
-        <nav class="space-y-1 text-xs font-medium" id="tocNav">
-          <a href="#overview" class="toc-link block px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-gold-500/10 transition-colors">1. Overview &amp; Zero-Account Model</a>
-          <a href="#information-collected" class="toc-link block px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-gold-500/10 transition-colors">2. Information We Collect</a>
-          <a href="#ai-processing" class="toc-link block px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-gold-500/10 transition-colors">3. AI Processing &amp; Use of Data</a>
-          <a href="#third-party-sdks" class="toc-link block px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-gold-500/10 transition-colors">4. Third-Party Services &amp; SDKs</a>
-          <a href="#security-storage" class="toc-link block px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-gold-500/10 transition-colors">5. Storage, Security &amp; Encryption</a>
-          <a href="#user-rights" class="toc-link block px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-gold-500/10 transition-colors">6. User Rights (GDPR &amp; CCPA)</a>
-          <a href="#deletion-flow" class="toc-link block px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-gold-500/10 transition-colors">7. Data Deletion &amp; On-Device Control</a>
-          <a href="#children" class="toc-link block px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-gold-500/10 transition-colors">8. Children's Privacy (COPPA)</a>
-          <a href="#contact" class="toc-link block px-3 py-2 rounded-lg text-slate-300 hover:text-white hover:bg-gold-500/10 transition-colors">9. Contact Us</a>
-        </nav>
+    <!-- 7. DATA SAFETY SECTION DISCLOSURES -->
+    <section class="glass-gold rounded-2xl p-6 sm:p-8 space-y-5">
+      <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
+        <i data-lucide="shield-alert" class="w-4 h-4"></i>
+        <span>Section 07</span>
+      </div>
+      <h2 class="text-xl sm:text-2xl font-bold text-white font-display">7. Data Safety Section Disclosures (Google Play Console)</h2>
 
-        <div class="mt-6 pt-4 border-t border-slate-800 text-[11px] text-slate-400 space-y-2">
-          <div class="flex items-center gap-1.5 text-gold-400 font-semibold">
-            <i data-lucide="check-circle" class="w-3.5 h-3.5"></i> Play Console URL Ready
-          </div>
-          <p class="text-[10px] leading-relaxed">This page is formatted for public hosting to satisfy Google Play Store Data safety form requirements.</p>
-        </div>
-      </aside>
-
-      <!-- POLICY CLAUSES CONTENT -->
-      <main class="lg:col-span-8 space-y-10" id="policyContent">
-
-        <!-- NOTICE BOX -->
-        <div class="p-5 rounded-2xl bg-gold-500/10 border border-gold-500/30 text-xs leading-relaxed text-slate-200">
-          <div class="flex items-center gap-2 text-gold-300 font-bold mb-1">
-            <i data-lucide="shield-check" class="w-4 h-4 text-gold-400"></i> Zero-Account Privacy Architecture
-          </div>
-          TapTap requires <strong class="text-white">no user registration, no sign-in, and no profile management</strong>. You explore, aggregate, and consume AI news completely anonymously. We do <strong class="text-white">not collect personal identities</strong>, we do <strong class="text-white">not sell your data</strong>, and your reading preferences remain safely stored on your local device.
+      <div class="space-y-3 text-xs sm:text-sm">
+        <div class="p-4 rounded-xl bg-obsidian-card border border-slate-800 space-y-2">
+          <h3 class="font-bold text-white">Does your app collect or share any required user data types?</h3>
+          <ul class="space-y-1.5 pl-4 list-disc text-slate-400">
+            <li><strong class="text-slate-300">App info and performance / Diagnostics:</strong> No.</li>
+            <li><strong class="text-slate-300">Personal Info (e.g., Name, Email):</strong> Only if user explicitly authenticates via Supabase Auth (Email optional).</li>
+            <li><strong class="text-slate-300">Financial Info:</strong> No (App displays public market indices and stock movers via REST APIs; does not handle banking or financial transactions).</li>
+          </ul>
         </div>
 
-        <!-- 1. OVERVIEW & DATA CONTROLLER -->
-        <section id="overview" class="policy-section glass-gold rounded-2xl p-6 sm:p-8 space-y-4">
-          <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
-            <span>Section 01</span>
-          </div>
-          <h2 class="text-xl sm:text-2xl font-bold text-white font-display">1. Overview &amp; Zero-Account Architecture</h2>
-          <div class="text-sm leading-relaxed space-y-3 text-slate-300">
-            <p>
-              This Privacy Policy applies to the mobile application <strong>TapTap - AI News &amp; Insights</strong> (the "Application"), developed and maintained by <strong>Firefly Labz</strong> ("Company," "we," "our," or "us"). 
-            </p>
-            <p>
-              <strong>No Account Required:</strong> TapTap is engineered as a strictly client-centric, account-free application. We do not support, mandate, or offer user accounts, logins, passwords, social authentication, or centralized profile creation. All readers enjoy identical and unconstrained access without ever sharing identity records or personal contact data.
-            </p>
-            <p>
-              Under applicable data protection frameworks—including the General Data Protection Regulation (EU/UK GDPR), California Consumer Privacy Act as amended by the CPRA (CCPA/CPRA), and Google Play Developer Program Policies—Firefly Labz acts as the <strong>Data Controller</strong> for any technical telemetry or direct communications initiated by you.
-            </p>
-          </div>
-        </section>
+        <div class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+          <span class="text-slate-400 font-medium">Is data encrypted in transit?</span>
+          <span class="text-emerald-400 font-semibold flex items-center gap-1.5">
+            <i data-lucide="lock" class="w-3.5 h-3.5"></i> Yes (HTTPS/TLS for all Supabase and REST API calls)
+          </span>
+        </div>
 
-        <!-- 2. INFORMATION WE COLLECT -->
-        <section id="information-collected" class="policy-section glass-gold rounded-2xl p-6 sm:p-8 space-y-6">
-          <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
-            <span>Section 02</span>
-          </div>
-          <h2 class="text-xl sm:text-2xl font-bold text-white font-display">2. Information We Collect</h2>
-          <p class="text-sm text-slate-300">
-            Because TapTap does not maintain user accounts, our data collection footprint is minimal and confined to on-device operations and standard diagnostics:
-          </p>
+        <div class="p-3.5 rounded-xl bg-obsidian-card border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-1">
+          <span class="text-slate-400 font-medium">Can users request data deletion?</span>
+          <span class="text-gold-300 font-semibold">Yes, by clearing app data or contacting fireflylabz@gmail.com</span>
+        </div>
+      </div>
+    </section>
 
-          <div class="space-y-4 text-xs sm:text-sm">
-            <!-- Item A -->
-            <div class="p-4 rounded-xl bg-obsidian-card border border-slate-800 space-y-1.5">
-              <h3 class="font-bold text-white flex items-center gap-2">
-                <i data-lucide="user-x" class="w-4 h-4 text-gold-400"></i> A. User Identification &amp; Account Data (None Collected)
-              </h3>
-              <p class="text-slate-400">
-                We do <strong>not</strong> collect names, usernames, email addresses, passwords, phone numbers, or social profile IDs. There is no sign-in or account registration flow in TapTap.
-              </p>
-              <p class="text-slate-400">
-                <strong>Voluntary Support Correspondence:</strong> If you voluntarily reach out to us for technical assistance at <a href="mailto:fireflylabz@gmail.com" class="text-gold-300 hover:underline">fireflylabz@gmail.com</a>, we will receive your sender email address and message contents solely to answer your inquiry.
-              </p>
-            </div>
+    <!-- Simple Footer -->
+    <footer class="pt-6 text-center text-xs text-slate-500 font-mono">
+      &copy; 2026 Firefly Labz &bull; TapTap AI News &amp; Finance Hub
+    </footer>
 
-            <!-- Item B -->
-            <div class="p-4 rounded-xl bg-obsidian-card border border-slate-800 space-y-1.5">
-              <h3 class="font-bold text-white flex items-center gap-2">
-                <i data-lucide="smartphone" class="w-4 h-4 text-gold-400"></i> B. Automatically Collected Technical Diagnostics
-              </h3>
-              <p class="text-slate-400">
-                <strong>Device Specifications:</strong> Non-identifying technical parameters (device model, Android OS version, system language, screen resolution) and transient network state.
-              </p>
-              <p class="text-slate-400">
-                <strong>Stability &amp; Crash Reports:</strong> Anonymous crash stacks, non-fatal logs, and ANR traces processed via Firebase Crashlytics to detect software regressions.
-              </p>
-              <p class="text-slate-400">
-                <strong>Coarse Region:</strong> Coarse, country/regional tier IP routing data used strictly to route news feed queries to the closest CDN edge. We do not track or access fine GPS coordinates.
-              </p>
-            </div>
+  </main>
 
-            <!-- Item C -->
-            <div class="p-4 rounded-xl bg-obsidian-card border border-slate-800 space-y-1.5">
-              <h3 class="font-bold text-white flex items-center gap-2">
-                <i data-lucide="hard-drive" class="w-4 h-4 text-gold-400"></i> C. On-Device Preferences &amp; Reading Cache
-              </h3>
-              <p class="text-slate-400">
-                Bookmarks, preferred topic categories (e.g., "Robotics", "LLMs"), and cached articles are stored <strong>locally in on-device storage (Android SharedPreferences / SQLite Cache)</strong>. This information is not synchronized to a remote account profile.
-              </p>
-            </div>
-
-            <!-- Non collection -->
-            <div class="p-4 rounded-xl bg-obsidian-muted/40 border border-gold-500/30 text-slate-300">
-              <h4 class="font-bold text-gold-300 flex items-center gap-2 text-xs uppercase tracking-wider mb-1">
-                <i data-lucide="shield-alert" class="w-4 h-4 text-gold-400"></i> Absolute Non-Collection Guarantee
-              </h4>
-              <p class="text-xs text-slate-400">
-                TapTap does <strong>not</strong> track, inspect, or request access to: Contacts, Biometrics, Precise GPS Location, Financial Details, Gallery/Photos, or Background Microphones.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        <!-- 3. AI PROCESSING & HOW WE USE INFORMATION -->
-        <section id="ai-processing" class="policy-section glass-gold rounded-2xl p-6 sm:p-8 space-y-4">
-          <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
-            <span>Section 03</span>
-          </div>
-          <h2 class="text-xl sm:text-2xl font-bold text-white font-display">3. AI Processing &amp; Usage Disclosures</h2>
-          <div class="text-sm leading-relaxed space-y-3 text-slate-300">
-            <p>
-              Because TapTap operates as an autonomous artificial intelligence news aggregator, we are committed to complete transparency regarding algorithmic processing:
-            </p>
-            <ul class="list-disc pl-5 space-y-2 text-slate-400 text-xs sm:text-sm">
-              <li><strong>Content Summarization:</strong> Our proprietary Large Language Model ingestion pipeline summarizes public research papers (ArXiv, BioRxiv), technical press releases, and code repository commits. User queries submitted to the "Ask TapTap" agent are transmitted in an ephemeral state strictly to answer your question and are purged after generation.</li>
-              <li><strong>No Public Foundation Model Training:</strong> We explicitly warrant that your private personal readings, search queries, and bookmarks are <span class="text-white font-semibold">never used to train public foundational AI models</span> without explicit prior opt-in consent.</li>
-              <li><strong>Zero Data Brokerage:</strong> We do not sell, rent, monetize, or trade your personal information to third-party data brokers, marketers, or external advertisers.</li>
-              <li><strong>Local First Personalization:</strong> Recommendation vectors for topic tailoring are processed client-side or tied to pseudonymous user IDs where possible.</li>
-            </ul>
-          </div>
-        </section>
-
-        <!-- 4. THIRD-PARTY SERVICES & SDKS -->
-        <section id="third-party-sdks" class="policy-section glass-gold rounded-2xl p-6 sm:p-8 space-y-5">
-          <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
-            <span>Section 04</span>
-          </div>
-          <h2 class="text-xl sm:text-2xl font-bold text-white font-display">4. Third-Party Services &amp; Embedded SDKs</h2>
-          <p class="text-sm text-slate-300">
-            In compliance with Google Play Store Developer Guidelines, below is an exhaustive disclosure of third-party Software Development Kits (SDKs) integrated within TapTap, their function, and links to their independent privacy policies:
-          </p>
-
-          <div class="overflow-x-auto">
-            <table class="w-full text-left text-xs border border-slate-800 rounded-xl overflow-hidden">
-              <thead class="bg-obsidian-surface text-gold-300 font-mono border-b border-slate-800">
-                <tr>
-                  <th class="p-3">Partner / SDK</th>
-                  <th class="p-3">Data Handled</th>
-                  <th class="p-3">Purpose</th>
-                  <th class="p-3">Privacy Link</th>
-                </tr>
-              </thead>
-              <tbody class="divide-y divide-slate-800 text-slate-400">
-                <tr class="hover:bg-slate-800/30">
-                  <td class="p-3 font-semibold text-white">Google Play Services</td>
-                  <td class="p-3">Device metadata, installation status</td>
-                  <td class="p-3">App integrity, core Google APIs</td>
-                  <td class="p-3"><a href="https://policies.google.com/privacy" target="_blank" rel="noopener" class="text-gold-400 hover:underline">Google Privacy</a></td>
-                </tr>
-                <tr class="hover:bg-slate-800/30">
-                  <td class="p-3 font-semibold text-white">Google Firebase Crashlytics</td>
-                  <td class="p-3">Crash stack traces, device specs, memory state</td>
-                  <td class="p-3">Crash detection &amp; stability debugging</td>
-                  <td class="p-3"><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener" class="text-gold-400 hover:underline">Firebase Policy</a></td>
-                </tr>
-                <tr class="hover:bg-slate-800/30">
-                  <td class="p-3 font-semibold text-white">Google Analytics for Firebase</td>
-                  <td class="p-3">App open events, session time, click events</td>
-                  <td class="p-3">Aggregated anonymous usage metrics</td>
-                  <td class="p-3"><a href="https://firebase.google.com/policies/analytics" target="_blank" rel="noopener" class="text-gold-400 hover:underline">Analytics Policy</a></td>
-                </tr>
-                <tr class="hover:bg-slate-800/30">
-                  <td class="p-3 font-semibold text-white">Google Cloud Speech / Audio</td>
-                  <td class="p-3">Synthesized text strings for text-to-speech</td>
-                  <td class="p-3">Audio briefing playback creation</td>
-                  <td class="p-3"><a href="https://cloud.google.com/terms/cloud-privacy-notice" target="_blank" rel="noopener" class="text-gold-400 hover:underline">Cloud Privacy</a></td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </section>
-
-        <!-- 5. STORAGE, SECURITY & RETENTION -->
-        <section id="security-storage" class="policy-section glass-gold rounded-2xl p-6 sm:p-8 space-y-4">
-          <div class="flex items-center gap-2 text-xs font-mono text-gold-400 uppercase tracking-wider">
-            <span>Section 05</span>
-          </div>
-          <h2 class="text-xl sm:text-2xl font-bold text-white font-display">5. Data Retention, Storage &amp; Security</h2>
-          <div class="text-sm leading-relaxed space-y-3 text-slate-300">
-            <p>
-              We implement industry-standard technical measures across all data flows:
-            </p>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs pt-1">
-              <div class="p-4 rounded-xl bg-obsidian-card border border
+  <!-- Lucide Icon Initialization -->
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
